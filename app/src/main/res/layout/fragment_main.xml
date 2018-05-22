@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bill_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bills_list_title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/income_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/errands_list_title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/other_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="@string/other_list_title"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/new_crime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="@string/new_crime" />
+
+    <Button
+        android:id="@+id/new_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:text="@string/add_income_button" />
+
+    <Button
+        android:id="@+id/new_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:text="@string/new_other_button" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/crime_recycler_view"
+        android:layout_width="308dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/income_recycler_view"
+        android:layout_width="308dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="190dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/other_recycler_view"
+        android:layout_width="308dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="340dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+>>>>>>> Stashed changes
+</FrameLayout>

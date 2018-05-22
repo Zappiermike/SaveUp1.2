@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SaveUp</string>
+    <string name="crime_title_hint">Enter a title for the crime.</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="new_crime">Add A New Bill</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Title</string>
+    <string name="subtitle_format">%1$d crimes</string>
+    <string name="delete_crime">Delete Crime</string>
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$d crime</item>
+        <item quantity="other">%1$d crimes</item>
+    </plurals>
+    <string name="empty_crime_list">There are no crimes</string>
+    <string name="crime_suspect_text">Choose Suspect</string>
+    <string name="crime_report_text">Send Crime Report</string>
+    <string name="crime_report">%1$s!
+     The crime was discovered on %2$s. %3$s, and %4$s
+    </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">There is no suspect</string>
+    <string name="crime_report_suspect">The suspect is %s</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
+    <string name="call_suspect">Call suspect</string>
+    <string name="bills_list_title">Bills</string>
+    <string name="errands_list_title">Income</string>
+    <string name="other_list_title">Other</string>
+    <string name="new_bill_title">Bill Name</string>
+    <string name="new_bill_hint">Enter a bill name</string>
+    <string name="new_bill_expense_title">Expense</string>
+    <string name="new_bill_expense_hint">Enter the cost of the bill</string>
+    <string name="add_bills_button">Add a new bill</string>
+    <string name="add_income_button">Add a new income</string>
+    <string name="income_list_title">Income</string>
+    <string name="new_income_title">New Income</string>
+    <string name="new_income_hint">Add a new income</string>
+    <string name="new_income_amount">Amount</string>
+    <string name="new_income_amount_hint">Enter the amount</string>
+    <string name="new_other_button">Add a new Other</string>
+    <string name="new_other_title">Other Name</string>
+    <string name="new_other_hint">Enter an other name</string>
+    <string name="new_other_expense_hint">Enter the cost of the other</string>
+    <string name="delete_income">Delete Income</string>
+</resources>
