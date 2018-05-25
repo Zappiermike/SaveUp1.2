@@ -18,7 +18,8 @@ public class CrimeLab {
     private SQLiteDatabase mDatabase;
 
     public void deleteCrime(Crime c){
-        mDatabase.delete(CrimeTable.NAME, CrimeTable.Cols.UUID + " = ?", new String[] { c.getId().toString() });
+        mDatabase.delete(CrimeTable.NAME, CrimeTable.Cols.UUID + " = ?",
+                new String[] { c.getId().toString() });
     }
 
     public void addCrime(Crime c) {

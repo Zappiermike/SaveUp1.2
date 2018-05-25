@@ -38,5 +38,12 @@
         android:inputType="number"
         android:hint="@string/new_other_expense_hint"/>
 
+    <ImageView
+        android:id="@+id/imageView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"/>
+
 
 </LinearLayout>

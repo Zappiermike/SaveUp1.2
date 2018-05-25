@@ -13,6 +13,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.UUID;
 
@@ -24,6 +27,7 @@ public class OtherFragment extends Fragment {
     private Other mCrime;
     private EditText mTitleField;
     private EditText mCostField;
+    private ImageView mImageView;
 
 
     public static OtherFragment newInstance(UUID crimeId) {
@@ -72,6 +76,12 @@ public class OtherFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.activity_other, container, false);
+
+        mImageView = (ImageView) v.findViewById(R.id.imageView03);
+        Picasso.with(getContext())
+                .load("http://travellogsapp.com/index_files/small_461.png")
+                .into(mImageView);
+
 
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
